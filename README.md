@@ -1,18 +1,18 @@
 # Reactjs-Boilerplate
 A clean Reactjs web application template with minimal dependencies to quickly get you started
 
-## Steps to get React running on your system, below steps are for Windows OS however you will be able to figure them out for unix easily:
+## Steps to get React running on your system:
 
 1. Clone/Download this repo, extract it.
 2. Terminal into the repo and run below commands (make sure npm is installed on your system):
-	1. npm install
-	2. npm run dev
+	npm install
+	npm run dev
 3. Browser -> http://localhost:8080/
 4. You should get a "Hello World ;)" message
 
 This project is enabled for Hot reloading, once its running, any changes you make in project files will trigger auto refresh of page wth updated changes.
 
-Details of NPM Dependencies installed in this project:
+Details of NPM packages installed in this project:
 
 dependencies:
 
