@@ -5,8 +5,11 @@ A clean Reactjs web application template with minimal dependencies to quickly ge
 
 1. Clone/Download this repo, extract it.
 2. Terminal into the repo and run below commands (make sure npm is installed on your system):
+	
 	npm install
+	
 	npm run dev
+	
 3. Browser -> http://localhost:8080/
 4. You should get a "Hello World ;)" message
 
