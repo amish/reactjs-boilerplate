@@ -2,14 +2,15 @@ const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');  
   
 module.exports = {  
-   entry: './src/main.js',  
+   entry: './src/index.js',
    output: {  
       path: path.join(__dirname, '/bundle'),  
       filename: 'index_bundle.js'  
    },  
    devServer: {  
-      inline: true,  
-      port: 8080  
+      inline: true,
+      port: 8080,
+      historyApiFallback: true
    },  
    module: {  
       rules: [  
